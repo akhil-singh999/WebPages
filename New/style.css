@@ -1,0 +1,55 @@
+* {
+    font-family: consolas;
+    margin:0;
+}
+
+/* body {
+    background-image: url("beach-scenery.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} */
+
+h2 {
+    text-align: center;
+    color:lightcoral;
+}
+
+div {    
+    height:770px;
+    /* border:5px solid lightblue; */
+    /* `-bottom:10px; */
+    text-align: center;
+    color:lightcoral;
+}
+
+div h2 {
+    font-size: 80px;
+    color:lightblue;
+    text-align: center;
+}
+
+#div_1 {
+    background-image: url("Australia_Scenery_Coast_Sky_Whitehaven_Beach_Beach_518682_3840x2160.jpg");
+    background-size: 100% 100%; 
+    /* background:cover; */
+    /* background-attachment: fixed; */
+}
+
+
+#div_2 {
+    background-image: url("new.jpg");
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+}
+
+#div_3 {
+    background-image: url("city_scenery-wallpaper-1920x1200.jpg");
+    background-size: 100% 100%; 
+    /* background-attachment: fixed; */
+}
+
+#div_4 {
+    background-image: url("wpid-20141108_150944_1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}

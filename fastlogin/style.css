@@ -1,0 +1,76 @@
+* {
+    font-family: consolas;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(indiagate.jpg);
+}
+
+#container {
+    width: 60%;
+    height: 100%;
+}
+
+.form {
+    top:15%;
+    left: 20%;
+    position: absolute;
+    width:30%;
+    height: 520px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+input {
+    display: block;
+    width:80%;
+    margin:auto;
+    height:35px;
+    margin-bottom: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.submit {
+    width: 20%;
+    margin:auto;
+    background-color: #F8B660;
+    padding:12px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login, .signup {
+    width: 100%;
+    box-sizing: border-box;
+    padding:10px;
+}
+
+.login p, .signup p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: #F8B660;
+    margin: 10px 0px;
+}
+
+input[type="text"], input[type="password"] {
+    background: transparent;
+    color:#F8B660;
+    border-bottom: 2px solid #F8B660;   
+    font-size:18px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    outline:none;
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #F8B660;
+    font-size: 15px;
+    /* opacity: 1; Firefox */
+}

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+}
+
+body {
+    background-image: url(rbhawan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#container {
+    position: relative;
+    height: 750px;
+    box-sizing: border-box;
+}
+
+.main {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    height: 72%;
+    width: 25%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.total {
+    width: 100%;
+    /* box-sizing: border-box; */
+}
+
+.login, .signup {
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    box-sizing: border-box;
+    border-bottom: 2px solid #FFEEC3;
+    margin-bottom: 10px;
+}
+
+.signup {
+    border: none;
+}
+
+.login span, .signup span {
+    text-align: center;
+    display: block;
+    color: #FFEEC3;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    width:95%;
+    box-sizing: border-box;
+    margin: auto;
+    border-bottom: 2px solid #FFEEC3;
+}
+
+input:focus {
+    outline: none;
+}
+
+.submit {
+    border: 2px solid #FFEEC3;
+    width: 25%;
+    border-radius: 5px;
+    background-color: #FFEEC3;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.submit a {
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: block;
+    color: black;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 12px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    color: #FFEEC3;
+}
+
+a:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #FFEEC3;
+}
+
+.welcome {
+    position:absolute;
+    left:4%;
+    top: 35%;
+    text-align: center;
+}
+
+.welcome span {
+    font-size: 60px;
+    color: #FFEEC3;
+    font-weight: 800;
+}
+
